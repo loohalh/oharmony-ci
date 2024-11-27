@@ -1,5 +1,5 @@
 # 鸿蒙持续集成 docker 镜像
-基于： centos 9 Stream
+基于：centos 9 Stream, 版本跟随Command Line Tools 更新
 [docker hub 镜像地址](https://hub.docker.com/r/looha/oharmony-ci)
 [国内镜像晚点更新]()
 
