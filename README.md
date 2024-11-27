@@ -1,7 +1,8 @@
 # 鸿蒙持续集成 docker 镜像
+基于： centos 9 Stream
 [docker hub 镜像地址](https://hub.docker.com/r/looha/oharmony-ci)
 [国内镜像晚点更新]()
-基于： centos 9 Stream
+
 
 ## 使用
 ### 一、宿主机使用（本地）
@@ -28,7 +29,7 @@
 
 ### 二、ci流水线使用
 打包环境选择docker,填写对应拉取信息，以coding为例子：
-![coding配置](http://www.img.looha.top/blog/2024/11/27/1732689136983_6746bcf372ca3.png)
+<img width="907" alt="image" src="https://github.com/user-attachments/assets/88801e41-7458-4f9c-8d96-0b8f74cee0d2">
 
 配置打包脚本
 
