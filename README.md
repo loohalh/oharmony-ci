@@ -4,14 +4,17 @@
 
 [docker hub 镜像地址](https://hub.docker.com/r/looha/oharmony-ci)
 
-[国内镜像晚点更新]()
+[国内镜像](https://cr.console.aliyun.com/repository/cn-shanghai/docker-hub-pub/oharmony-ci/details)
 
 
 ## 使用
 ### 一、宿主机使用（本地）
     1、安装docker后拉取镜像
     ```
+    # docker hub  镜像
     docker pull looha/oharmony-ci
+    # 国内镜像
+    docker pull crpi-ei15w5bunnash8ph.cn-shanghai.personal.cr.aliyuncs.com/docker-hub-pub/oharmony-ci
     ```
     2、上传代码到docker容器
     ```
