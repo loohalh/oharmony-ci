@@ -5,7 +5,6 @@
 
 [国内镜像](https://cr.console.aliyun.com/repository/cn-shanghai/docker-hub-pub/oharmony-ci/details)
 
-
 ## 版本：
 #### latest(v5.1.0.849)
 #### v6.0.0.858
@@ -56,6 +55,28 @@ hvigorw clean --no-daemon
 hvigorw assembleHap --mode module -p product=default -p buildMode=debug --no-daemon
 ```
 成功后产物路径：/root/workspace/entry/build/default/outputs/default下
+
+
+
+
+
+## 更新日志：
+
+
+### 2025.09.29 
+release latest(v5.1.0.849)
+
+### 2025.09.29 
+release v6.0.0.858
+
+### 2025.09.28 
+release v5.1.1.840
+
+### 2025.09.27 
+release v5.1.0.849
+
+### 2024.12.09 
+release v5.0.5.200
 
 
  
