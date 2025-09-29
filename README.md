@@ -1,11 +1,17 @@
 # 鸿蒙持续集成 docker 镜像
 基于：centos 9 Stream, 版本跟随Command Line Tools 更新
-大小：11.3G
 
 [docker hub 镜像地址](https://hub.docker.com/r/looha/oharmony-ci)
 
 [国内镜像](https://cr.console.aliyun.com/repository/cn-shanghai/docker-hub-pub/oharmony-ci/details)
 
+
+## 版本：
+#### latest(v5.1.0.849)
+#### v6.0.0.858
+#### v5.1.1.840
+#### v5.1.0.849
+#### v5.0.5.200
 
 ## 使用
 ### 一、宿主机使用（本地）
@@ -13,6 +19,7 @@
     ```
     # docker hub  镜像
     docker pull looha/oharmony-ci
+
     # 国内镜像
     docker pull crpi-ei15w5bunnash8ph.cn-shanghai.personal.cr.aliyuncs.com/docker-hub-pub/oharmony-ci
     ```
