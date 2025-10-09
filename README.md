@@ -31,13 +31,19 @@
     #1.配置执行环境
     source /etc/profile
 
-    #2.cd项目根目录，进行打包
+    4.cd项目根目录，进行打包
     ohpm install --all
     hvigorw clean --no-daemon
-    #hvigorw assembleApp --mode project -p product=release -p buildMode=release --no-daemon
+   
+    # debug hap 产物路径：<project_path>/entry/build/default/outputs/default/
     hvigorw assembleHap --mode module -p product=default -p buildMode=debug --no-daemon
+
+    # release hap 产物路径：<project_path>/entry/build/default/outputs/default/
+    hvigorw assembleHap --mode module -p product=default -p buildMode=release --no-daemon
+
+    # release app 产物路径：<project_path>/build/outputs/release
+    hvigorw assembleApp --mode project -p product=release -p buildMode=release --no-daemon
     ```
-成功后产物路径：<project_path>/entry/build/default/outputs/default/
 
 ### 二、ci流水线使用
 打包环境选择docker,填写对应拉取信息，以coding为例子：
@@ -51,11 +57,17 @@ source /etc/profile
 ohpm install --all
 
 hvigorw clean --no-daemon
-#hvigorw assembleApp --mode project -p product=release -p buildMode=release --no-daemon
-hvigorw assembleHap --mode module -p product=default -p buildMode=debug --no-daemon
-```
-成功后产物路径：/root/workspace/entry/build/default/outputs/default下
 
+# debug hap 产物路径：/root/workspace/entry/build/default/outputs/default/
+hvigorw assembleHap --mode module -p product=default -p buildMode=debug --no-daemon
+
+# release hap 产物路径：/root/workspace/entry/build/default/outputs/default/
+hvigorw assembleHap --mode module -p product=default -p buildMode=release --no-daemon
+
+# release app 产物路径：/root/workspace/build/outputs/release
+hvigorw assembleApp --mode project -p product=release -p buildMode=release --no-daemon
+
+```
 
 
 
