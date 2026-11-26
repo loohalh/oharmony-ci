@@ -6,7 +6,9 @@
 [国内镜像](https://cr.console.aliyun.com/repository/cn-shanghai/docker-hub-pub/oharmony-ci/details)
 
 ## 版本：
-#### latest(v5.1.0.849)
+#### latest(v6.1.1.460)
+#### v26.0.0.865
+#### v6.1.1.460
 #### v6.0.0.858
 #### v5.1.1.840
 #### v5.1.0.849
@@ -74,6 +76,11 @@ hvigorw assembleApp --mode project -p product=release -p buildMode=release --no-
 
 ## 更新日志：
 
+### 2026.11.26 
+release latest(v6.1.1.460)
+
+### 2026.11.26 
+release v6.1.1.460
 
 ### 2025.09.29 
 release latest(v5.1.0.849)
