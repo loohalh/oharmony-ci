@@ -80,6 +80,9 @@ hvigorw assembleApp --mode project -p product=release -p buildMode=release --no-
 release latest(v6.1.1.460)
 
 ### 2026.11.26 
+release v26.0.0.865
+
+### 2026.11.26 
 release v6.1.1.460
 
 ### 2025.09.29 
